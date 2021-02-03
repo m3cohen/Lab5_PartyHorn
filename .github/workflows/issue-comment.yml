@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu—latest
     steps:
         - name: Add gif comment
-        - uses: Marta83/funny—comment—action@v2.1
-        - id: FunnyComment
+          uses: Marta83/funny—comment—action@v2.1
+          id: FunnyComment
           with:
               GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
               comment_type: 'gif'
